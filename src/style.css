@@ -78,16 +78,6 @@ li::first-letter {
 
 }
 
-.weather-temperature .active {
-   color:#22577E;
-   cursor: default;
-   text-decoration: none;
-}
-
-.weather-temperature .active:hover {
-   text-decoration: none;
- }
-
  .weather-forecast {
     margin-top: 20px;
     text-align: center;
