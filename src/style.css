@@ -26,6 +26,7 @@ li {
 }
 .btn {
     background-color: #F6F6C9;
+    float: left;
     opacity: 70%;
     border: none;
     border-radius: 5px;
@@ -47,7 +48,7 @@ li {
     }
 
 .weather-app {
-    padding: 10px;
+    padding: 35px;
     border: 1px solid #F6F6C9;
     border-radius: 5px;  
     }
