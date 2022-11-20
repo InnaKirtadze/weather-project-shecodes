@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Weather app</title>
 </head>
 <body>
@@ -16,10 +24,10 @@
                 <form id="search-form" class="mb-3">
                     <div class="row">
                         <div 
-                        class="col-8">
+                        class="col-6">
                     <input 
                     type="search" 
-                    placeholder="Type a city name..." 
+                    placeholder="Type a city here ..." 
                     class="form-control"
                     id="city-input"
                     autocomplete="off"
@@ -50,35 +58,31 @@
 id="city">
 </h1>  
 <ul>
-    <li 
-    id="date">
-</li>
-    <li 
-    id="description">
+    <li><span id="date"></span></li> 
+    <li><span id="description"></span></li>
 </li>
 </ul>
 </div>
 <div class="row">
     <div class="col-6">
-        <div class="d-flex weather-temperature">
-        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Clear" id="icon" />
-        <strong id="temperature"></strong>
-        <div class="units">
-        °C
+        <div class="Flexbox weather-temperature">
+        <img src="" alt="Clear" id="icon"/>
+            <strong id="temperature"></strong>
+       <span class="units"> °C</span>
         </div>
-    </div>
     </div>
     <div class="col-6">
         <ul>
-            <li id="humidity"></li>
-            <li id="wind"></li>
+            <li><span id="humidity"></span></li>
+            <li><span id="wind"></span></li>
         </ul>
     </div>
 </div>
-<div class="weather-forecast" id="forecast"></div>
-            </div>
+    <div class="weather-forecast" id="forecast"></div>
+</div>
+
 <small>
-<a href="https://github.com/InnaKirtadze/weather-project-shecodes" target="_blank">Open-source code</a>
+<a href="" target="_blank">Open-source code</a>
 by Inna Kirtadze
 </small>
 </div>

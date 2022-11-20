@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 h1 {
-    color: #153462;
+    color: #5F6F94;
     font-size: 24px;
     line-height: 28px;
     display: block;
@@ -15,30 +15,30 @@ ul {
 }
 li {
     list-style: none;
-    color: #153462;
+    color: #5F6F94;
     font-size: 16px;
     font-weight: 200;
     line-height: 19px;
 }
 
 #temperature {
-    color: #153462;
+    color: #5F6F94;
 }
 .btn {
-    background-color: #F6F6C9;
-    opacity: 70%;
-    border: none;
-    border-radius: 5px;
-    color: #153462;
+    background-color: #FEF5AC;
+    border-color: #97D2EC;
+    border-radius: 4px;
+    color: #97D2EC;
+    font-style: italic;
 }
 
 .btn:hover {
-        background-color: #153462;
-        opacity: 70%;
-        border: none;
-        border-radius: 5px;
-        color: #F6F6C9;
-        transition: all 150ms ease-in-out;
+    background-color: #97D2EC;
+    border: none;
+    border-radius: 5px;
+    color: #FEF5AC;
+    font-style: italic;
+    transition: all 150ms ease-in-out;
 }
 
 .weather-app-wrapper {
@@ -47,31 +47,33 @@ li {
     }
 
 .weather-app {
-    padding: 10px;
-    border: 1px solid #F6F6C9;
+    padding: 20px;
+    border: 1px solid #97D2EC;
     border-radius: 5px;  
     }
 #city-input {
-    border-color: #F6F6C9;
+    border-color: #97D2EC;
+    font-style: italic;
 }
 .overview {
     margin-bottom: 20px;
     }
 #icon {
     margin-right: 5px;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
 }
 .weather-temperature strong {
-    font-weight: 400;
-    font-size: 64px;
+    font-weight: 40;
+    font-size: 46px;
     line-height: 1;
 }
+
 .weather-temperature .units {
-    position:relative;
+    position: relative;
     font-size: 16px;
-    top: -5px;
-}
+    top: -34px;
+  }
 
 li::first-letter {
     text-transform: capitalize;
@@ -90,10 +92,6 @@ li::first-letter {
 
  }
 
- #humidity, #wind {
-    text-align: end;
- }
-
  .weather-forecast-temperature {
     font-size: 14px;
  }
@@ -104,8 +102,4 @@ li::first-letter {
 
  .weather-forecast-temperature-min {
     font-size: 13px;
- }
-
- small {
-    color: #153462;
  }
